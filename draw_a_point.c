@@ -6,7 +6,8 @@ int main(){
 int gd = DETECT, gm;
 initgraph(&gd, &gm, NULL);
 for(int i=0; i<=400; i++){
-    // Test Change
+    // Code for Line
+
     putpixel(i,200, RED);
 }
 getch();
