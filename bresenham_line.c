@@ -17,7 +17,6 @@ int main()
 
     initgraph(&gd, &gm,"");
     draw_line_using_bresenham(xa, ya, xb, yb);
-    wait_for_char();
     getch();
     closegraph();
     return 0;
@@ -76,15 +75,3 @@ int draw_line_using_bresenham (int xa,int ya,int xb,int yb)
 
     return 0;
 }
-
-void wait_for_char()
-{
-
-    //Wait for a key press
-    int in = 0;
-
-    while (in == 0) {
-        in = getchar();
-    }
-}
-
