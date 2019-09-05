@@ -16,6 +16,7 @@ This Repository contains the following programs in C language:
  4. Draw a smiley
  5. Draw a line using DDA Algorithm ( DDA - digital differential analyzer )
  6. Draw a line using Bresenham's Line Algorithm
+ 7. Draw a circle using Bresenham's Circle Algorithm
 
    (To be continued...)
    
