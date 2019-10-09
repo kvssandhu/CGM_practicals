@@ -15,13 +15,13 @@ int main(){
     scanf("%d", &r);
 
     initgraph(&gd, &gm, " ");
-    midpoint_circle(xc,yc, r);
+    cirlce_midpoint(xc,yc, r);
     getch();
     closegraph();
     return 0;
 }
 
-int midpoint_circle(int xc, int yc, int r){
+int cirlce_midpoint(int xc, int yc, int r){
 
     int x=0, y =r;
     int p = 1 - r;
@@ -44,14 +44,14 @@ int midpoint_circle(int xc, int yc, int r){
 
 void draw_circle(int xc, int yc, int x, int y){
 
-    putpixel(xc + x, yc + y,RED);
-    putpixel(xc + x, yc - y,RED);
-    putpixel(xc - x, yc + y,RED);
-    putpixel(xc - x, yc - y,RED);
-    putpixel(xc + y, yc + x,RED);
-    putpixel(xc + y, yc - x,RED);
-    putpixel(xc - y, yc + x,RED);
-    putpixel(xc - y, yc - x,RED);
+    putpixel(xc + x, yc + y,WHITE);
+    putpixel(xc + x, yc - y,WHITE);
+    putpixel(xc - x, yc + y,WHITE);
+    putpixel(xc - x, yc - y,WHITE);
+    putpixel(xc + y, yc + x,WHITE);
+    putpixel(xc + y, yc - x,WHITE);
+    putpixel(xc - y, yc + x,WHITE);
+    putpixel(xc - y, yc - x,WHITE);
 
 }
 
