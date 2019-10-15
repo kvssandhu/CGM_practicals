@@ -26,6 +26,7 @@ int main(){
 
     draw_rectangle(xmin, xmax, ymin, ymax);
     check_line(x1, y1, x2, y2, xmin, xmax, ymin, ymax);
+    line(x1,y1,x2,y2);
     getch();
     closegraph();
 
