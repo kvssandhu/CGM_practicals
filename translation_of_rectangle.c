@@ -4,6 +4,7 @@
 #include<stdio.h>
 #include<graphics.h>
 
+
 int main(){
 
     int x1, y1, x2, y2;
@@ -20,11 +21,11 @@ int main(){
     initgraph(&gd, &gm, "");
     rectangle(x1, y1, x2, y2);
     rectangle(x1 + tx, y1 + ty, x2+tx, y2+ty);
-
-    getch();
+    getchar();
     closegraph();
 
     return 0;
 
 
 }
+
