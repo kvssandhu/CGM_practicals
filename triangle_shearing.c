@@ -54,10 +54,7 @@ int main(){
     // create the scaled triangle
    draw_triangle(scaled_tri);
 
-    //
-  //  draw_triangle(x1, y1, x2, y2, x3, y3);
-//    scale(sx, sy, x1, y1, x2, y2, x3, y3);
-    getchar();
+   getchar();
    closegraph();
 
     return 0;
